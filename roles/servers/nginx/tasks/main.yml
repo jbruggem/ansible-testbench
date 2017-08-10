@@ -1,0 +1,3 @@
+- name: "Nginx role"
+  debug:
+    msg: "This is a message Nginx"

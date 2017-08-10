@@ -1,0 +1,11 @@
+---
+- hosts: eu-web
+
+  roles:
+  - role: servers/nginx
+    tags: nginx
+  - role: servers/fakerole2
+    tags: fakerole2
+
+  vars_files:
+  - vars/main.yml

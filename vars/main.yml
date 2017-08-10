@@ -1,0 +1,2 @@
+ansible_user: root
+fake1var2: "fake1var2 is defined in global"

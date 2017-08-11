@@ -2,8 +2,13 @@
 - hosts: eu-web
 
   roles:
+
+  - role: servers/fakerole3
+    tags: fakerole3
+
   - role: servers/nginx
     tags: nginx
+
   - role: servers/fakerole2
     tags: fakerole2
 

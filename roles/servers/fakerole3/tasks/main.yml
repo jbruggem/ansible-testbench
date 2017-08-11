@@ -1,0 +1,12 @@
+- name: "fakerole3 role"
+  debug:
+    msg: "This is a message fakerole3"
+
+- debug:
+    msg:  "{{ fake1var }}"
+
+- debug:
+    msg:  "{{ fake1var2 }}"
+
+- debug:
+    msg:  "{{ fake1var3 }}"
